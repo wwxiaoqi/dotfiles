@@ -10,7 +10,7 @@ usage() {
 
 if [[ -n "$1" ]]; then
     if [[ "$1" == "all" ]]; then
-        all="alacritty bspwm dunst fish picom polybar rofi scripts spicetify"
+        all="alacritty bspwm dunst fish picom polybar rofi scripts spicetify sxhkd"
     else
         all=$*
     fi
