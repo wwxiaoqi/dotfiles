@@ -12,7 +12,6 @@
 - Editor: [neovim](https://github.com/neovim/neovim)
 - Browser: [google-chrome](https://aur.archlinux.org/packages/google-chrome)
 - File Explorer
-  - ~~Ranger~~
   - [lf(terminal)](https://github.com/gokcehan/lf)
   - [nautilus(gui)](https://wiki.gnome.org/Apps/Files)
 - Screenshot: [flameshot](https://github.com/flameshot-org/flameshot)
@@ -42,6 +41,19 @@ pacman -S xf86-video-admgpu brightnessctl alsa-utils
 pacman -S iwd dhcpcd nautilus
 yay -S google-chrome
 pacman -S fzf ripgrep lf bat fd
+```
+
+```bash
+# Install Tools
+pacman -S sxhkd
+pacman -S betterlockscreen
+pacman -S nitrogen
+pacman -S fcitx5
+pacman -S antidot
+pacman -S polybar
+pacman -S playerctl
+pacman -S awk
+pacman -S imwheel
 ```
 
 ```bash
