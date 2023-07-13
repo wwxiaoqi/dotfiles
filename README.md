@@ -60,7 +60,7 @@ pacman -S imwheel
 # Install Picom
 git clone git@github.com:yaocccc/picom.git
 cd picom
-pacman -S meson ninja libev uthash libconfig
+pacman -S meson ninja libev uthash libconfig pcre
 git submodule update --init --recursive
 meson --buildtype=release . build
 sudo ninja -C build install
