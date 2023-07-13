@@ -37,7 +37,7 @@ Optional:
 pacman -S stow
 pacman -S xorg xorg-xinit bspwm rofi alacritty
 pacman -S tmux fish neovim lf nautilus flameshot
-pacman -S xf86-video-admgpu brightnessctl alsa-utils
+pacman -S xf86-video-amdgpu brightnessctl alsa-utils
 pacman -S iwd dhcpcd nautilus
 yay -S google-chrome
 pacman -S fzf ripgrep lf bat fd
