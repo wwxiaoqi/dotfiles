@@ -35,7 +35,7 @@ Optional:
 ```bash
 # Install Basic
 pacman -S stow
-pacman -S xorg xorg-xinit bspwm rofi alacrity
+pacman -S xorg xorg-xinit bspwm rofi alacritty
 pacman -S tmux fish neovim lf nautils flameshot
 pacman -S xf86-video-admgpu brightnessctl alsa-utils
 pacman -S iwd dhcpcd nautilus
