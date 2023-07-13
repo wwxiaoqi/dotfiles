@@ -49,7 +49,7 @@ pacman -S sxhkd
 pacman -S betterlockscreen
 pacman -S nitrogen
 pacman -S fcitx5
-ysy -S antidot
+yay -Sy antidot-bin
 pacman -S polybar
 pacman -S playerctl
 pacman -S awk
