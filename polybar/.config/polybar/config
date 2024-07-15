@@ -12,7 +12,7 @@ monitor = ${env:MONITOR:}
 width = 100%
 height = 21pt
 radius = 6
-dpi = 150
+dpi = 120
 background = ${colors.background}
 foreground = ${colors.foreground}
 line-size = 5pt
@@ -35,13 +35,15 @@ enable-ipc = true
 
 modules-left = bspwm
 modules-center = xwindow spotify
-modules-right = filesystem pulseaudio backlight memory cpu battery date powermenu
+modules-right = fcitx5 memory cpu battery date powermenu
 
-
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:30:...%
-format = <label>
+[module/fcitx5]
+type = custom/script
+; interval = 1
+format-prefix = ""
+exec = [[ $(fcitx5-remote) -eq 2 ]] &&echo "ZH" || echo "EN"
+interval = 1
+format-prefix-foreground = ${colors.primary}
 
 [module/bspwm]
 type = internal/bspwm
